@@ -19,7 +19,7 @@ export default function Home() {
     toPng(eleRef.current, { cacheBust: false })
       .then((dataUrl) => {
         const link = document.createElement("a");
-        link.download = "bankok-x-lotus.png";
+        link.download = "bangkok-sticker";
         link.href = dataUrl;
         link.click();
       })
