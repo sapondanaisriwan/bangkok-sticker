@@ -47,7 +47,7 @@ export default function Home() {
             />
             <button
               onClick={downloadImage}
-              className="w-1/5 bg-[#6DA7FF] text-white rounded"
+              className="w-1/5 bg-[#6DA7FF] text-white rounded text-xl"
             >
               Download
             </button>
