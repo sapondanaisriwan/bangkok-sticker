@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main>
       <section className="px-4 py-12">
-        <Link href="https://github.com/sapondanaisriwan/" target="_blank">
+        <Link href="https://github.com/sapondanaisriwan/bangkok-sticker" target="_blank">
           <h1 className="text-6xl sm:text-7xl text-center text-white [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)]">
             Bangkok Sticker
           </h1>
