@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Bangkok Sticker",
-  description: "เว็บเปลี่ยนสติกเกอร์คานรางรถไฟฟ้า",
+  description: "เว็บเปลี่ยนคำบนป้ายคานรางรถไฟฟ้ากรุงเทพที่กำลังมีดราม่า",
 };
 
 export default function RootLayout({ children }) {
