@@ -28,9 +28,9 @@ export default function Home() {
 
   return (
     <main>
-      <section className="px-4 py-12">
+      <section className="px-4 py-12 flex justify-center">
         <Link href="https://github.com/sapondanaisriwan/bangkok-sticker" target="_blank">
-          <h1 className="text-6xl sm:text-7xl text-center text-white [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)]">
+          <h1 className="inline-block text-center text-6xl sm:text-7xl mx-auto text-white [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)]">
             Bangkok Sticker
           </h1>
         </Link>
@@ -61,8 +61,7 @@ export default function Home() {
         >
           <Image src="/bg.png" alt="bg" priority fill objectFit="cover" />
           <div
-            id="overlay"
-            className="text-white [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)] shadow-inner absolute inset-0 flex mt-7 sm:mt-10 items-center justify-center text-2xl sm:text-5xl select-none"
+            className="text-white text-nowrap [text-shadow:_0_4px_4px_rgb(0_0_0_/_25%)] shadow-inner absolute inset-0 flex mt-7 sm:mt-10 items-center justify-center text-2xl sm:text-5xl select-none"
           >
             {text}
           </div>
